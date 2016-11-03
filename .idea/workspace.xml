@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd83a478-0e44-482a-a546-c9bfe6d43f68" name="Default" comment="24/10/2016&#10;&#10;- implementacion de procedimiento sobre facturas y puntos&#10;" />
+    <list default="true" id="cd83a478-0e44-482a-a546-c9bfe6d43f68" name="Default" comment="24/10/2016&#10;&#10;- implementacion de procedimiento sobre facturas y puntos&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Class.Main.php" afterPath="$PROJECT_DIR$/Class.Main.php" />
+    </list>
     <ignored path="APIREST.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,22 +24,22 @@
     <favorites_list name="APIREST" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Class.Main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Class.Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8397711">
-              <caret line="170" column="31" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.24428572">
+              <caret line="203" column="75" selection-start-line="203" selection-start-column="75" selection-end-line="203" selection-end-column="75" />
               <folding>
-                <marker date="1478015468113" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
-                <marker date="1478015468113" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
-                <marker date="1478015468113" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
-                <marker date="1478015468113" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
-                <marker date="1478015468113" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
-                <marker date="1478015468113" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
-                <marker date="1478015468113" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
-                <marker date="1478015468113" expanded="true" signature="11548:11604" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
-                <marker date="1478015468113" expanded="true" signature="14170:14246" placeholder="SELECT * FRO..usuario..." />
+                <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+                <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+                <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+                <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+                <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+                <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+                <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+                <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+                <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
               </folding>
             </state>
           </provider>
@@ -50,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Class.Main.php" />
         <option value="$PROJECT_DIR$/PUNTOS.php" />
+        <option value="$PROJECT_DIR$/Class.Main.php" />
       </list>
     </option>
   </component>
@@ -95,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -115,7 +119,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -199,9 +202,8 @@
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14460154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14845759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -209,6 +211,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -242,10 +245,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MTCL.php">
+    <entry file="file://$PROJECT_DIR$/Class.Main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+            <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+            <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+            <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+            <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+            <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+            <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+            <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+            <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -254,15 +268,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1478015468113" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
-            <marker date="1478015468113" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
-            <marker date="1478015468113" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
-            <marker date="1478015468113" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
-            <marker date="1478015468113" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
-            <marker date="1478015468113" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
-            <marker date="1478015468113" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
-            <marker date="1478015468113" expanded="true" signature="11548:11604" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
-            <marker date="1478015468113" expanded="true" signature="14170:14246" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+            <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+            <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+            <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+            <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+            <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+            <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+            <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+            <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
           </folding>
         </state>
       </provider>
@@ -279,15 +293,40 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1478015468113" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
-            <marker date="1478015468113" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
-            <marker date="1478015468113" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
-            <marker date="1478015468113" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
-            <marker date="1478015468113" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
-            <marker date="1478015468113" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
-            <marker date="1478015468113" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
-            <marker date="1478015468113" expanded="true" signature="11548:11604" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
-            <marker date="1478015468113" expanded="true" signature="14170:14246" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+            <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+            <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+            <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+            <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+            <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+            <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+            <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+            <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MTCL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class.Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+            <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+            <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+            <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+            <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+            <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+            <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+            <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+            <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
           </folding>
         </state>
       </provider>
@@ -303,7 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -311,7 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -319,24 +356,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.048640914">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Class.Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8397711">
-          <caret line="170" column="31" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.24428572">
+          <caret line="203" column="75" selection-start-line="203" selection-start-column="75" selection-end-line="203" selection-end-column="75" />
           <folding>
-            <marker date="1478015468113" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
-            <marker date="1478015468113" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
-            <marker date="1478015468113" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
-            <marker date="1478015468113" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
-            <marker date="1478015468113" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
-            <marker date="1478015468113" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
-            <marker date="1478015468113" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
-            <marker date="1478015468113" expanded="true" signature="11548:11604" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
-            <marker date="1478015468113" expanded="true" signature="14170:14246" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1478191129767" expanded="true" signature="666:808" placeholder="SELECT MIN_A..ESCALA_BONIF..." />
+            <marker date="1478191129767" expanded="true" signature="1966:2019" placeholder="SELECT * FRO..SALESUMK_MTAR..." />
+            <marker date="1478191129767" expanded="true" signature="3460:3502" placeholder="SELECT * FRO..SALESUMK_EXISTENCIA_LOTE..." />
+            <marker date="1478191129767" expanded="true" signature="4631:4693" placeholder="SELECT ARTIC..M_ARTIC_2015..." />
+            <marker date="1478191129767" expanded="true" signature="5572:5705" placeholder="SELECT top 5..Vencimientos_6meses..." />
+            <marker date="1478191129767" expanded="true" signature="6906:7033" placeholder="SELECT ARTIC..Vencimientos_12meses..." />
+            <marker date="1478191129767" expanded="true" signature="8878:8965" placeholder="SELECT * FRO..APKSaldo_clientes_umk..." />
+            <marker date="1478191129767" expanded="true" signature="11412:11468" placeholder="SELECT * FRO..SALESUMK_FACTURAS..." />
+            <marker date="1478191129767" expanded="true" signature="14034:14110" placeholder="SELECT * FRO..usuario..." />
           </folding>
         </state>
       </provider>

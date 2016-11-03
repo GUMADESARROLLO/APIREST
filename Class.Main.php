@@ -212,11 +212,9 @@ class Vistas{
                 $json[$i]['Dias120'] = "0.00";
                 $json[$i]['Mas120'] = "0.00";
 
-                $retVal = $obj->Pts($row['CLIENTE']);
-                //$json[$i]['PUNTOS'] = ($retVal== null) ? 0 : $retVal;
+                $SqlMora = "exec Softland.dbo.DOC_VENC_CL '".$row['CLIENTE']."'";
+                $stmtMora = sqlsrv_query( $conn, $SqlMora , $params, $options );
 
-                    $SqlMora = "exec Softland.dbo.DOC_VENC_CL '".$row['CLIENTE']."'";
-                    $stmtMora = sqlsrv_query( $conn, $SqlMora , $params, $options );  
                     while($rowMora=sqlsrv_fetch_array($stmtMora,SQLSRV_FETCH_ASSOC)){
                         $json[$i]['NoVencidos'] = "C$ ".number_format($rowMora['NoVencidos'],2,".","");  
                         $json[$i]['Dias30']     = "C$ ".number_format($rowMora['Dias30'],2,".","");  
